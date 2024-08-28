@@ -14,12 +14,12 @@ function colorGenerateRGB() {
 }
 
 function generatePallet(count) {
-    let pallet = [];
+    let paleta = [];
     for (let i1 = 0; i1 < count; i1++) {
-        pallet[i1] = colorGenerateRGB();
+        paleta[i1] = colorGenerateRGB();
     }
 
-    return pallet;
+    return paleta;
 }
 //Imprimo paleta
 
