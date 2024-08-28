@@ -2,7 +2,7 @@
 Creamos repositorio para la materia Edi 2024
 
 
-function colorGenerateRGB() {
+function generateRGB() {
     let colors = [];
     for (let i2 = 0; i2 < 3; i2++) {
         colors[i2] = Math.floor((Math.random() * 256));
@@ -16,7 +16,7 @@ function colorGenerateRGB() {
 function generatePallet(count) {
     let pallet = [];
     for (let i1 = 0; i1 < count; i1++) {
-        pallet[i1] = colorGenerateRGB();
+        pallet[i1] = generateRGB();
     }
 
     return pallet;
