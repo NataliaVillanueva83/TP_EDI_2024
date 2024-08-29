@@ -23,4 +23,4 @@ function generatePallet(count) {
 }
 //Imprimo paleta
 
-console.log(generatePallet(13));
+console.log(generatePallet(10));
