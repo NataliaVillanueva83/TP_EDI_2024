@@ -24,3 +24,4 @@ function generatePalletRGB(count) {
 //Imprimo paleta
 
 console.log(generatePalletRGB(5));
+
