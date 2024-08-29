@@ -1,5 +1,6 @@
 # TP_EDI_2024
-Creamos repositorio para la entrega final de EDI.
+
+Creamos repositorio para el TP final Edi 2024
 
 
 function colorGenerateRGB() {
