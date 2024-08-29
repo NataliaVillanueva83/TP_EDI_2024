@@ -13,7 +13,7 @@ function colorGenerateRGB() {
     return `rgb(${colors[0]},${colors[1]},${colors[2]})`;
 }
 
-function generatePallet(count) {
+function generatePalletRGB(count) {
     let pallet = [];
     for (let i1 = 0; i1 < count; i1++) {
         pallet[i1] = colorGenerateRGB();
@@ -23,4 +23,5 @@ function generatePallet(count) {
 }
 //Imprimo paleta
 
-console.log(generatePallet(13));
+console.log(generatePalletRGB(5));
+
