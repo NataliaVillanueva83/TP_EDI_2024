@@ -4,8 +4,8 @@ Creamos repositorio para la materia Edi 2024
 
 function colorGenerateRGB() {
     let colors = [];
-    for (let i2 = 0; i2 < 3; i2++) {
-        colors[i2] = Math.floor((Math.random() * 256));
+    for (let i = 0; i < 3; i++) {
+        colors[i] = Math.floor((Math.random() * 256));
         // colors.push(Math.floor((Math.random() * 256)));
     }
 
