@@ -1,6 +1,7 @@
 # TP_EDI_2024
 
 Creamos repositorio para el TP final Edi 2024
+Generamos conflicto
 
 
 function colorGenerateRGB() {
