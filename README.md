@@ -1,5 +1,7 @@
 # TP_EDI_2024
-Creamos repositorio para la materia Edi 2024
+
+Creamos repositorio para el TP final Edi 2024
+Generamos conflicto
 
 
 function colorGenerateRGB() {
@@ -13,13 +15,14 @@ function colorGenerateRGB() {
     return `rgb(${colors[0]},${colors[1]},${colors[2]})`;
 }
 
-function generatePalletRGB(count) {
-    let pallet = [];
+function generatePallet(count) {
+    let paleta = [];
+
     for (let i1 = 0; i1 < count; i1++) {
-        pallet[i1] = colorGenerateRGB();
+        paleta[i1] = colorGenerateRGB();
     }
 
-    return pallet;
+    return paleta;
 }
 //Imprimo paleta
 
